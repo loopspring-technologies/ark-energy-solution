@@ -1,0 +1,214 @@
+.heroSection {
+  background: url("/images/home/heroBg.svg");
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.wave1Img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 24%;
+}
+.wave2Img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 37%;
+}
+.cloud1Img {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+  width: 100px;
+}
+.cloud2Img {
+  position: absolute;
+  top: 47%;
+  left: 35%;
+  width: 100px;
+}
+.buildingImg {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 45%;
+}
+.roadDiv {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 16px;
+  background: #4b9045;
+}
+.peopleImg {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 29%;
+}
+.sunImg {
+  position: absolute;
+  top: 29%;
+  left: 21%;
+  width: 50px;
+}
+.bigCloudImg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+}
+.heroSubContent {
+  transition: 0.5s;
+}
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+.heroContent {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+}
+.heroSubContent {
+  width: 50%;
+  padding-right: 5vw;
+}
+.heroContent h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #305cde;
+}
+.heroContent p {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.heroBtn {
+  background: #01a85a;
+  padding: 7px 50px !important;
+  border-radius: 6px;
+  width: fit-content !important;
+}
+.heroBtn a {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+.aboutSubDiv img {
+  width: 100%;
+}
+.aboutSubDiv {
+  position: relative;
+  transition: 0.5s;
+}
+.aboutSubDiv h2 {
+  font-size: 24px;
+  color: white;
+}
+.aboutSubDiv p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.aboutSubDiv div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0px;
+  left: 0px;
+  padding: 30px;
+  background: #181b747a;
+  text-align: center;
+  opacity: 0;
+  transition: 0.8s;
+}
+.aboutSubDiv div:hover {
+  opacity: 1;
+}
+.navButton button {
+  flex: 1;
+  font-size: 28px !important;
+  font-weight: 600;
+  padding: 14px;
+}
+.navButton div {
+  border-bottom: 2px solid #305cde;
+}
+.solutionDiv {
+  padding-top: 60px;
+}
+.solutionDiv img {
+  width: 100%;
+}
+.solutionDiv h2 {
+  font-size: 28px;
+  color: #01a85a;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.solutionDiv p {
+  font-size: 18px;
+  text-align: justify;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #01a85a;
+  border-radius: 2px;
+}
+
+.divider img {
+  display: block;
+  width: 19px;
+  height: auto;
+  background: transparent;
+}
+@media (max-width: 1000px) {
+  .heroContent h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .heroSubContent {
+    width: 100%;
+    padding: 0px 5vw;
+  }
+  .heroSection {
+    background-position: 23%;
+  }
+  .buildingImg {
+    width: 51%;
+  }
+  .roadDiv {
+    height: 8px;
+  }
+  .heroContent h2 {
+    font-size: 33px;
+  }
+}

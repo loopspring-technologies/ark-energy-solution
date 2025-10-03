@@ -13,3 +13,24 @@ body {
 .sectionDiv {
   padding: 0px 5vw;
 }
+.mainHead {
+  font-size: 36px;
+  color: #305cde;
+  font-weight: 600;
+}
+.navBtn .nav-link {
+  border: 0px !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #305cde !important;
+}
+.navBtn .nav-link.active {
+  border-bottom: 1px solid #305cde !important;
+  background: #305cde !important;
+  border-radius: 0px !important;
+  color: white !important;
+}
+.navBtn .nav-link:focus,
+.navBtn .nav-link:hover {
+  border: 0px !important;
+  border-bottom: 1px solid #305cde !important;
+}
