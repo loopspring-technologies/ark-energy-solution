@@ -61,7 +61,7 @@ const Home = () => {
       <div className={`${styles.aboutDiv} mt-5 pt-5 sectionDiv`}>
         <h1 className="mainHead text-center">ARK LEEDS Energy Solutions</h1>
         <div className="row mt-5 pt-4 justify-content-center">
-          <div className="col-md-6 col-xl-4 mb-4">
+          <div className="col-md-6 col-lg-4 mb-4">
             <div className={`${styles.aboutSubDiv}`}>
               <img src="/images/home/aboutImg1.svg" />
               <div>
@@ -75,7 +75,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-xl-4 mb-4">
+          <div className="col-md-6 col-lg-4 mb-4">
             <div className={`${styles.aboutSubDiv}`}>
               <img src="/images/home/aboutImg2.svg" />
               <div>
@@ -90,7 +90,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-xl-4 mb-4">
+          <div className="col-md-6 col-lg-4 mb-4">
             <div className={`${styles.aboutSubDiv}`}>
               <img src="/images/home/aboutImg3.svg" />
               <div>
