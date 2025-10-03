@@ -16,3 +16,91 @@
   width: 150px;
   margin-left: 5vw;
 }
+.navHeaderDiv {
+  background: #305cde;
+  padding: 15px 5vw;
+}
+.navHeaderDiv a {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif !important;
+}
+.navHeaderSubDiv {
+  gap: 17px;
+}
+.togButton {
+  display: none;
+}
+.modalDiv {
+  width: 270px;
+  height: 100vh;
+  background: white;
+}
+.modalDiv {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.modalDialog {
+  margin: 0px;
+}
+.modalContent {
+  border-radius: unset;
+  border: none;
+}
+.modalBody {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.modalBody ul a {
+  color: rgb(0, 0, 0) !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif !important;
+  padding: 10px 15px;
+}
+.modalBody ul a:hover {
+  background: #305cde !important;
+  color: white !important;
+}
+.contactUsModal {
+  padding: 25px 15px;
+}
+.contactUsModal a {
+  text-decoration: none;
+  background: #01a85a;
+  font-size: 16px !important;
+  padding: 15px;
+  color: white !important;
+}
+@media (max-width: 992px) {
+  .togButton {
+    display: block;
+  }
+  .navHeaderDiv {
+    display: none;
+  }
+  .contactUs {
+    display: none !important;
+  }
+  .mainHeader {
+    padding: 15px 0px;
+  }
+  .topLink {
+    margin-right: 5vw;
+  }
+}
+@media (max-width: 790px) {
+  .socialLinks {
+    display: none !important;
+  }
+}
+@media (max-width: 650px) {
+  .headerLink {
+    display: none !important;
+  }
+}

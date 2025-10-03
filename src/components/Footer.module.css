@@ -1,0 +1,97 @@
+.logoImg {
+  width: 150px;
+}
+.footerDiv {
+  background: #305cde;
+  padding: 30px 5vw;
+}
+.footerDiv div {
+  gap: 10vw;
+}
+.footerDiv ul {
+  flex: 1;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.footerDiv ul a {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif !important;
+  text-decoration: none;
+}
+.socialLinks {
+  display: flex;
+  gap: 15px;
+}
+.footerSecondDiv {
+  padding: 30px 5vw;
+}
+.copyrightDiv {
+  color: #305cde;
+  font-size: 14px;
+}
+.copyrightDiv a {
+  color: #305cde !important;
+  text-decoration: none;
+}
+.contactBtn {
+  background: #305cde;
+  padding: 7px 40px;
+  border-radius: 6px;
+}
+.contactBtn a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+@media (max-width: 1200px) {
+  .footerDiv div {
+    gap: unset;
+  }
+}
+@media (max-width: 1000px) {
+  .footerDiv ul {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  .footerDiv ul li {
+    padding: 5px 0px;
+  }
+  .footerDiv div {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 900px) {
+  .footerSecondSubDiv {
+    flex-direction: column;
+  }
+  .copyrightDiv {
+    order: 1;
+    margin-top: 20px;
+  }
+  .contactBtn {
+    order: 0;
+    margin-top: 20px;
+    width: fit-content;
+  }
+}
+@media (max-width: 750px) {
+  .footerDiv ul {
+    flex: unset;
+  }
+}
+@media (max-width: 500px) {
+  .footerDiv div {
+    display: block !important;
+  }
+  .footerDiv ul {
+    padding-left: 0px;
+    margin-top: 25px;
+  }
+}
